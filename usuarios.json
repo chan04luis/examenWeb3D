@@ -1,0 +1,50 @@
+{
+    "status": 1,
+    "datos": [
+      {
+        "id": "6",
+        "nombres": "LUIS ANGEL CHAN VALLE",
+        "estatus": "1",
+        "usuario": "chan04luis",
+        "contra": "xorashk1",
+        "nivel": "3",
+        "descripcion1": "GERENTE"
+      },
+      {
+        "id": "5",
+        "nombres": "ROSY .",
+        "estatus": "1",
+        "usuario": "rosy",
+        "contra": "12345",
+        "nivel": "1",
+        "descripcion1": "ADMINISTRADOR"
+      },
+      {
+        "id": "4",
+        "nombres": "MARTIN RUIZ",
+        "estatus": "1",
+        "usuario": "martinruiz",
+        "contra": "596103",
+        "nivel": "3",
+        "descripcion1": "GERENTE"
+      },
+      {
+        "id": "3",
+        "nombres": "SILVIA CHI",
+        "estatus": "1",
+        "usuario": "chivis",
+        "contra": "54321",
+        "nivel": "1",
+        "descripcion1": "ADMINISTRADOR"
+      },
+      {
+        "id": "2",
+        "nombres": "FRANCISCO PINA",
+        "estatus": "1",
+        "usuario": "francisco",
+        "contra": "12345",
+        "nivel": "3",
+        "descripcion1": "GERENTE"
+      }
+    ]
+  }

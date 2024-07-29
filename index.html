@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ejercicios de examen</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/my.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <div class="container top-30">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                        Ejercicio #1
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Filtro de Arreglos </h5>
+                            <p class="text-card">Instrucciones: </p>
+    
+                            <ul>
+                                <li>Crea una función llamada filtrarMayoresDeEdad que tome un arreglo de objetos personas, donde cada objeto tenga las propiedades nombre y edad.</li>
+                                <li>La función debe devolver un nuevo arreglo con solo las personas que tengan 18 años o más.</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-12" id="ejercicio1"></div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Edad</label>
+                                        <input type="number" id="edad" min="0" max="50" class="form-control" value="18" />
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <button type="button" onclick="filtrarMayoresDeEdad()" class="btn btn-primary btn-block">
+                                            Actualizar
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container top-30">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                        Ejercicio #2 y #4
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Transformar y Filtrar Arreglos - Manipulación Compleja del DOM </h5>
+                            <p class="text-card">Instrucciones: </p>
+    
+                            <ul>
+                                <li>Crea una función llamada transformarYFiltrar que tome un arreglo de números.</li>
+                                <li>La función debe devolver un nuevo arreglo que contenga los cuadrados de los números originales, pero solo aquellos cuadrados que sean mayores de 20.</li>
+                                <li>Crea un archivo HTML con una lista desordenada (ul) y un botón.</li>
+                                <li>Cada elemento de lista debe tener un botón para eliminarlo de la lista.</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-12" id="ejercicio2"></div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label>Numero</label>
+                                        <input type="number" id="numeros" min="0" max="50" class="form-control" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="button" onclick="agregarNumeros()" class="btn btn-primary btn-block">
+                                            Agregar
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label>Filtro de cuadrado</label>
+                                        <input type="number" id="cuadrado" value="20" min="0" max="50" class="form-control" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="button" onclick="transformarYFiltrar()" class="btn btn-primary btn-block">
+                                            Actualizar
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container top-30">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                        Ejercicio #3 y #5
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Promesas y Asincronía</h5>
+                            <p class="text-card">Instrucciones: </p>
+    
+                            <ul>
+                                <li>Simula una llamada a una API con fetch que obtiene datos de usuarios.</li>
+                                <li>Crea una función llamada obtenerUsuarios que use fetch para obtener los datos y los imprima en la consola. </li>
+                                <li>Maneja los errores adecuadamente utilizando try...catch. </li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-12" id="ejercicio3"></div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <button type="button" onclick="ordenarPorNombre()" class="btn btn-primary btn-block">
+                                            Ordenar por Nombre
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
